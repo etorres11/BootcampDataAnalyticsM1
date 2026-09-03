@@ -16,4 +16,4 @@ st.write(status)
 st.write(liquido_total_bpd)
 st.write(corte_agua_pct)
 
-st.sidebar.tittle("Parámetros")
+st.sidebar.title("Parámetros")
