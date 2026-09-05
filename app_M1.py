@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Bootcamp Data Analytics for Oil & Gas")
 st.sidebar.title("Parámetros")
 
-modulos = st.sidebar.selectbox("seleccione un módulo, ["Introducción de variables", "Funciones"])
+modulos = st.sidebar.selectbox("seleccione un módulo", ["Introducción de variables", "Funciones"])
 
 if modulos == "Introducción de variables":
 
