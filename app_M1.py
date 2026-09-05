@@ -72,6 +72,7 @@ elif modulos == "POO":
   
     def produccion_total(self):
       total_produccion = self.petroleo + self.agua
+      st.write("total_produccion:", self.produccion_total)
       return total_produccion
   
     def proyectar_produccion(self, dias=30):
