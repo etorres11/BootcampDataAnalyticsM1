@@ -85,9 +85,9 @@ elif modulos == "POO":
     
   pozo = Pozo(nombre_pozo, campo_pozo, petroleo, agua)
     
-  st.write (pozo.mostrar_informacion())
+  pozo.mostrar_informacion()
 
-  st.write(pozo.produccion_total())
+  st.write("producción total: ",pozo.produccion_total(), "BFPD")
 
   dias = st.number_input("Ingrese los dias a proyectar", min_value = 0, max_value = 365, value = 30)
 
