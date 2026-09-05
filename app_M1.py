@@ -1,6 +1,11 @@
 import streamlit as st
 
 st.title("Bootcamp Data Analytics for Oil & Gas")
+st.sidebar.title("Parámetros")
+
+modulos = st.sidebar.selectox("seleccione un módulo, ["Introducción de variables", "Funciones"])
+
+if modulos == "Introducción de variables":
 
 pozo= "SPE-001"
 petroleo_bpd = 1250
@@ -16,4 +21,4 @@ st.write(status)
 st.write(liquido_total_bpd)
 st.write(corte_agua_pct)
 
-st.sidebar.title("Parámetros")
+elif modulos == "Funciones":
