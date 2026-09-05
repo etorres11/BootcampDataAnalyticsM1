@@ -44,3 +44,5 @@ elif modulos == "Funciones":
     )
 
     return round(caudal, decimales)
+
+cauda_maximo = st.number_input("Ingrse el caudal máximo")
