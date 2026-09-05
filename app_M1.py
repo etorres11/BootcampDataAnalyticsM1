@@ -69,10 +69,10 @@ elif modulos == "POO":
       st.write("Campo:", self.campo)
       st.write("Petroleo:", self.petroleo, "BPD")
       st.write("Agua:", self.agua, "BPD")
-  
+      st.write("total_produccion:", self.produccion_total)
+      
     def produccion_total(self):
       total_produccion = self.petroleo + self.agua
-      st.write("total_produccion:", self.produccion_total)
       return total_produccion
   
     def proyectar_produccion(self, dias=30):
@@ -88,7 +88,7 @@ elif modulos == "POO":
     
   st.write (pozo.mostrar_informacion())
 
-  st.write(pozo.produccion_total)
+  st.write(pozo.produccion_total())
 
   dias = st.number_input("Ingrese los dias a proyectar", min_value = 0, max_value = 365, value = 30)
 
