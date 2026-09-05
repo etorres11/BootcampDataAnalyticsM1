@@ -83,7 +83,7 @@ elif modulos == "POO":
   petroleo = st.number_input("Ingrese la producción de petroleo", min_value = 0, max_value = 5000, value = 1000)
   agua = st.number_input("Ingrese la producción de agua", min_value = 0, max_value = 5000, value = 200)
     
-  pozo = pozo(nombre_pozo, campo_pozo, petroleo, agua)
+  pozo = Pozo(nombre_pozo, campo_pozo, petroleo, agua)
     
   st.write (pozo.mostrar_informacion())
 
