@@ -69,8 +69,7 @@ elif modulos == "POO":
       st.write("Campo:", self.campo)
       st.write("Petroleo:", self.petroleo, "BPD")
       st.write("Agua:", self.agua, "BPD")
-      st.write("total_produccion:", self.produccion_total)
-      
+       
     def produccion_total(self):
       total_produccion = self.petroleo + self.agua
       return total_produccion
