@@ -12,7 +12,7 @@ from funciones_datos import (
     resumen_dataframe,
     exportar_excel
 )
-from clases_pozo import pozo
+from clase_pozo import Pozo
 from clases_campo import Campo
 
 st.title("Bootcamp Data Analytics for Oil & Gas")
