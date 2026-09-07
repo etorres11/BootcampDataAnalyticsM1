@@ -1,6 +1,6 @@
 """Clase Campo: ejemplo de composición de objetos."""
 
-from clase_pozo import Pozo
+from clases_pozo import Pozo
 
 
 class Campo:
