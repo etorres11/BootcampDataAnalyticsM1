@@ -3,7 +3,7 @@ import pandas as pd
 
 from funciones_calculos import (calcular_liquido, calcular_bsw, calcular_gor, proyectar_produccion)
 from funciones_datos import (filtrar_pozo, resumen_dataframe, exportar_excel)
-from clase_pozo import Pozo
+from clases_pozo import Pozo
 from clases_campo import Campo
 
 st.title("Bootcamp Data Analytics for Oil & Gas")
