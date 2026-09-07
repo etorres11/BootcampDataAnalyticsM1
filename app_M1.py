@@ -102,19 +102,19 @@ elif modulos == "Importación de librerías":
   st.title("Aplicación Modular con funciones y Clases")
   st.header("1. Uso de Funciones")
 
-    petroleo = st.number_input(
+  petroleo = st.number_input(
         "Producción de petróleo",
         min_value=0.0,
         value=800.0
     )
     
-    agua = st.number_input(
+  agua = st.number_input(
         "Producción de agua",
         min_value=0.0,
         value=200.0
     )
     
-    dias = st.number_input(
+  dias = st.number_input(
         "Días",
         min_value=1,
         value=30
