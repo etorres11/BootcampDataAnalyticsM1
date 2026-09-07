@@ -120,21 +120,21 @@ elif modulos == "Importación de librerías":
         value=30
     )
     
-    if st.button("Calcular"):
-        liquido = calcular_liquido(
-            petroleo,
-            agua
-        )
-    
-        bsw = calcular_bsw(
-            petroleo,
-            agua
-        )
-    
-        proyeccion = proyectar_produccion(
-            petroleo,
-            dias
-        )
+      if st.button("Calcular"):
+          liquido = calcular_liquido(
+              petroleo,
+              agua
+          )
+      
+          bsw = calcular_bsw(
+              petroleo,
+              agua
+          )
+      
+          proyeccion = proyectar_produccion(
+              petroleo,
+              dias
+          )
     
         st.write("Producción líquida:", liquido)
         st.write("BSW:", round(bsw, 2), "%")
